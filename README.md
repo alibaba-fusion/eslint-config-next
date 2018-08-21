@@ -1,6 +1,8 @@
 # @alifd/eslint-config-next
 `@alifd/eslint-config-next` 是 Next 组件库默认的 [eslint](http://eslint.org/) 配置。
 
+[![npm package](https://img.shields.io/npm/v/@alifd/eslint-config-next.svg?style=flat-square)](https://www.npmjs.org/package/@alifd/eslint-config-next)
+
 ## 代码风格指南
 
 * [javascript](./docs/code-guide/javascript.md)
