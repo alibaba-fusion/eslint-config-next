@@ -1,0 +1,45 @@
+{
+  "name": "@alifd/eslint-config-next",
+  "version": "2.0.0",
+  "description": "Next components ESLint config, following our styleguide.",
+  "keywords": [
+    "fusion",
+    "eslint",
+    "config",
+    "next"
+  ],
+  "homepage": "https://github.com/alibaba-fusion/eslint-config-next",
+  "bugs": "https://github.com/alibaba-fusion/eslint-config-next/issues",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alibaba-fusion/eslint-config-next.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "precommit": "npm run lint"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-react": "^7.9.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-react": "^7.9.1",
+    "husky": "^0.14.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
